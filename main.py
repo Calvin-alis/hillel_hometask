@@ -19,7 +19,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-
+print('Git test')
 @app.route('/hello/')
 def hello_world():
     return 'Hello, World!'
